@@ -1,0 +1,46 @@
+﻿  AllShapes.cpp
+  Circle.cpp
+  main.cpp
+  Shape.cpp
+  Square.cpp
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(11,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(18,18): error C2440: 'initializing': cannot convert from 'int' to 'AllShapes'
+      C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(18,18):
+      'AllShapes::AllShapes': no overloaded function could convert all the argument types
+          C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\AllShapes.h(4,1):
+          could be 'AllShapes::AllShapes(AllShapes &&)'
+              C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(18,18):
+              'AllShapes::AllShapes(AllShapes &&)': cannot convert argument 1 from 'int' to 'AllShapes &&'
+                  C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(18,19):
+                  Reason: cannot convert from 'int' to 'AllShapes'
+          C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\AllShapes.h(4,1):
+          or       'AllShapes::AllShapes(const AllShapes &)'
+              C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(18,18):
+              'AllShapes::AllShapes(const AllShapes &)': cannot convert argument 1 from 'int' to 'const AllShapes &'
+                  C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(18,19):
+                  Reason: cannot convert from 'int' to 'const AllShapes'
+          C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(18,18):
+          while trying to match the argument list '(int)'
+  
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(19,2): error C2065: 'Shape': undeclared identifier
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(19,9): error C2065: 's': undeclared identifier
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(42,4): error C2065: 's': undeclared identifier
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(42,18): error C2661: 'Square::Square': no overloaded function takes 3 arguments
+      C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(42,18):
+      while trying to match the argument list '(float, char [30], float)'
+  
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(53,4): error C2065: 's': undeclared identifier
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(53,18): error C2661: 'Circle::Circle': no overloaded function takes 3 arguments
+      C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(53,18):
+      while trying to match the argument list '(float, char [30], float)'
+  
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(63,10): error C2039: 'AddShape': is not a member of 'AllShapes'
+      C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\AllShapes.h(2,7):
+      see declaration of 'AllShapes'
+  
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(63,19): error C2065: 's': undeclared identifier
+C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\main.cpp(66,9): error C2039: 'PrintShapes': is not a member of 'AllShapes'
+      C:\Users\academic26\Desktop\Library_example\Shapes\Shapes\AllShapes.h(2,7):
+      see declaration of 'AllShapes'
+  

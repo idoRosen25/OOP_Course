@@ -1,3 +1,4 @@
+
 //-----------------------------------------------------------------------------------------------//
 #include <iostream>
 using namespace std;
@@ -15,10 +16,10 @@ void main()
 	cout << "Please enter the amount of shapes:" << endl;
 	cin >> shapesSize;
 
-	AllShapes shapes(shapesSize);
+	AllShapes shapes( shapesSize );
 	Shape* s;
 
-	for (int i = 0; i < shapesSize; i++)
+	for( int i = 0; i < shapesSize; i++ )
 	{
 		int shapeType;
 		float frameWidth;
@@ -30,7 +31,7 @@ void main()
 		cout << "Please enter the frameWidth and the color:" << endl;
 		cin >> frameWidth >> color;
 
-		switch (shapeType)
+		switch( shapeType )
 		{
 		case SQUARE:
 		{
@@ -39,7 +40,7 @@ void main()
 			cout << "Please enter the side length:" << endl;
 			cin >> sideLength;
 
-			s = new Square(frameWidth, color, sideLength);
+			s = new Square( frameWidth, color, sideLength );
 
 			break;
 		}
@@ -50,7 +51,7 @@ void main()
 			cout << "Please enter the radius:" << endl;
 			cin >> radius;
 
-			s = new Circle(frameWidth, color, radius);
+			s = new Circle( frameWidth, color, radius );
 
 			break;
 		}
@@ -60,11 +61,11 @@ void main()
 			continue;
 		}
 
-		shapes.AddShape(s);
+		shapes.AddShape( s );
 	}
 
 	shapes.PrintShapes();
 
-	system("pause");
+	system( "pause" );
 }
 //-----------------------------------------------------------------------------------------------//

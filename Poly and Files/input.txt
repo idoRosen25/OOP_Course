@@ -1,0 +1,6 @@
+5 Moses 5 Moshe 8 Tel-Aviv 4 8:00 5 20:00 5
+F 4 Milk 5.56 150
+M 6 Acamol 20.99 1
+F 5 Bread 8.5 600
+F 4 Eggs 24.99 500
+M 5 Advil 31.99 0
